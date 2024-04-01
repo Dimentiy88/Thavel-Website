@@ -17,6 +17,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <header class="header-page">
@@ -70,7 +71,9 @@
           </ul>
         </div>
       </section>
-      <section class="search-bar container">
+      <section class="search-bar container" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1000">
         <ul class="bar-list list">
           <li class="bar-item">
             <div class="list-container">
@@ -120,8 +123,8 @@
           </p>
           <a class="cabins-link" href="">View all cabins</a>
         </div>
-        <div class="card-wrapper">
-          <article class="card card--1">
+        <div class="card-wrapper" >
+          <article class="card card--1" data-aos="zoom-in-right" data-aos-delay="900">
             <a href="#" class="card__info-hover">
               <svg
                 class="card__like"
@@ -156,7 +159,7 @@
               >
             </div>
           </article>
-          <article class="card card--2">
+          <article class="card card--2" data-aos="zoom-in-right" data-aos-delay="600">
             <div class="card__info-hover">
               <svg
                 class="card__like"
@@ -191,7 +194,7 @@
               >
             </div>
           </article>
-          <article class="card card--3">
+          <article class="card card--3" data-aos="zoom-in-right" data-aos-delay="300">
             <div class="card__info-hover">
               <svg
                 class="card__like"
@@ -239,7 +242,7 @@
             <a href="" class="inspiration-link">View all experiences</a>
           </div>
           <ul class="inspiration-card_list list">
-            <li class="inspiration-card_item">
+            <li class="inspiration-card_item" data-aos="zoom-in-left" data-aos-delay="900">
               <img class="inspiration-card_image" src="./images/img/Shoes.png" alt="shoes" width="334" height="284"/>
               <div class="inspiration-card_descr">
                 <p class="inspiration-card_text">For those who love</p>
@@ -250,7 +253,7 @@
                 </p>
               </div>
             </li>
-            <li class="inspiration-card_item">
+            <li class="inspiration-card_item" data-aos="zoom-in-left" data-aos-delay="600">
               <img class="inspiration-card_image" src="./images/img/Human.png" alt="man" width="334" height="284"/>
               <div class="inspiration-card_descr">
                 <p class="inspiration-card_text">For those who want</p>
@@ -262,7 +265,7 @@
                 </p>
               </div>
             </li>
-            <li class="inspiration-card_item">
+            <li class="inspiration-card_item" data-aos="zoom-in-left" data-aos-delay="300">
               <img class="inspiration-card_image" src="./images/img/dog.png" alt="dog" width="334" height="284"/>
               <div class="inspiration-card_descr">
                 <p class="inspiration-card_text">For those who have</p>
@@ -305,5 +308,7 @@
         </div>
       </section>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/animation.js"></script>
   </body>
 </html>
