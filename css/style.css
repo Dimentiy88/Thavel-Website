@@ -101,11 +101,12 @@ img {
   border: solid 1px;
   padding: 12px;
   border-radius: 50%;
+  background-color: #ebe7e7;
 }
 
 /* =-=--=-=-=-=hero-section=-=-=-=--= */
 .hero-section {
-  padding-bottom: 119px;
+  padding: 96px 0 119px 0;
   background-color: black;
   background-image: url(../images/img/hero-bgr-img.jpg);
   background-repeat: no-repeat;
@@ -275,17 +276,29 @@ img {
 }
 .descr {
   max-width: 544px;
+  margin-bottom: 34px;
   font-weight: 400;
   font-size: 16px;
   line-height: 175%;
   color: #fff;
 }
+.list-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
 .list-items {
   display: flex;
-  margin-top: 34px;
 }
 .list-item {
   margin: 0 -4px;
+}
+.hero-raiting {
+  color: #fff;
+}
+.hero-raiting::before {
+  content: "★";
+  color: #fff;
 }
 
 /* -=-=-=-=-=-=-=search-bar=-=-=-=-=-=-=-=- */
@@ -650,4 +663,53 @@ img {
   line-height: 171%;
   letter-spacing: 0.04em;
   color: #fff;
+}
+
+/* -=-=-=-=-=-=-=-=-=testimonials=-=-=-=-=-=-=-=- */
+
+.testimonials {
+  background-image: url(../images/img/purple-woman.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.testimonials-wrapper {
+  width: 419px;
+  margin-left: auto;
+  padding-top: 148px;
+  padding-bottom: 54px;
+}
+.testimonials-title {
+  margin-bottom: 20px;
+
+  font-family: var(--second-family);
+  font-size: 44px;
+  line-height: 123%;
+  color: #fff;
+}
+
+.first-text {
+  margin-bottom: 23px;
+}
+
+.testimonials-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #fff;
+}
+.rating {
+  width: 419px;
+  display: flex;
+  color: #fff;
+  margin-left: auto;
+  padding-bottom: 167px;
+  gap: 12px;
+}
+.rating::before {
+  content: "★★★★★";
+  display: flex;
+  color: #fff;
+  background-color: #1bb580;
 }
