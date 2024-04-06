@@ -674,7 +674,7 @@ img {
   background-size: cover;
 }
 .testimonials-wrapper {
-  width: 419px;
+  max-width: 419px;
   margin-left: auto;
   padding-top: 148px;
   padding-bottom: 54px;
@@ -700,7 +700,7 @@ img {
   color: #fff;
 }
 .rating {
-  width: 419px;
+  max-width: 419px;
   display: flex;
   color: #fff;
   margin-left: auto;
@@ -712,4 +712,48 @@ img {
   display: flex;
   color: #fff;
   background-color: #1bb580;
+}
+
+/* -=-=-=-=-=-=-=Who-we-are=-=-=-=-=-=-*/
+
+.Who-we-are {
+}
+.Who-we-are-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 106px 0 54px 0;
+}
+.Who-we-are_left-side {
+  max-width: 354px;
+}
+.Who-we-are-title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 93%;
+  color: #22223c;
+
+  margin-bottom: 25px;
+}
+.text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #47475f;
+  margin-bottom: 37px;
+}
+.third-text {
+  font-weight: 600;
+  color: #606872;
+}
+
+.third-text-wrapper {
+  display: flex;
+}
+
+.Who-we-are-icon {
+  align-items: center;
+  margin-left: 7px;
 }
