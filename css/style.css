@@ -52,8 +52,6 @@ img {
 }
 /* =-=--=-=-=-=header=-=-=-=--= */
 
-.header-page {
-}
 .header-container {
   display: flex;
   flex-wrap: wrap;
@@ -463,9 +461,6 @@ img {
   background-image: url(../images/img/Rectangle\ 149.png);
 }
 
-.card__like {
-}
-
 .card__img {
   visibility: hidden;
   background-size: cover;
@@ -716,8 +711,6 @@ img {
 
 /* -=-=-=-=-=-=-=Who-we-are=-=-=-=-=-=-*/
 
-.Who-we-are {
-}
 .Who-we-are-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -756,4 +749,53 @@ img {
 .Who-we-are-icon {
   align-items: center;
   margin-left: 7px;
+}
+
+/* -=-=-=-=-=-=-=group=-=-=-=-=-=-=- */
+.group {
+  background: #f2faf9;
+}
+.group-container {
+  padding: 101px 50px;
+  background-image: url(../images/img/BG\ image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: inherit;
+}
+.group-descr {
+  max-width: 521px;
+  margin: 101px 0px 101px 0px;
+}
+.group-title {
+  margin-bottom: 26px;
+
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 123%;
+  color: #fff;
+}
+.group-text {
+  margin-bottom: 26px;
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #fff;
+}
+.group-btn {
+  border-radius: 4px;
+  width: 236px;
+  height: 54px;
+  border: none;
+  cursor: pointer;
+
+  background: #f5b963;
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: #000;
 }
