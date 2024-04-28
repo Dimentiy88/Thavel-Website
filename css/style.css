@@ -810,7 +810,7 @@ img {
   line-height: 200%;
   color: #1f3d3e;
 
-  margin: 67px 0 41px 0;
+  margin: 60px 0 41px 0;
 }
 .FAQ-wrapper {
   display: flex;
@@ -876,6 +876,8 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 157%;
+
+  margin-bottom: 60px;
 }
 
 .chat-link {
@@ -889,13 +891,15 @@ img {
 .footer-top {
   background-image: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.5) 100%),
     url(../images/img/footer-bgr.jpg);
-
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+  padding: 210px 0 210px 0;
+  position: relative;
 }
 
-.footer-top-wrapper {
+.footer-bgr {
 }
 .footer-top-title {
   max-width: 513px;
@@ -912,6 +916,8 @@ img {
   font-size: 14px;
   line-height: 171%;
   color: #fff;
+
+  margin: 20px 0 40px 0;
 }
 .footer-top-btn {
   border-radius: 6px;
@@ -921,6 +927,7 @@ img {
 
   background: #d4eeec;
   cursor: pointer;
+  border: none;
 
   font-family: var(--font4);
   font-weight: 500;
