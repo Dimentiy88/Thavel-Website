@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="linkedin" viewBox="0 0 32 32">
+      <path fill="none" stroke="#eaeaf1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.286" d="M20.581 11.074a7.717 7.717 0 0 1 7.717 7.717v9.004h-5.145v-9.004a2.57 2.57 0 0 0-2.573-2.572 2.574 2.574 0 0 0-2.573 2.572v9.004h-5.145v-9.004a7.717 7.717 0 0 1 7.717-7.717v0zM7.719 12.36H2.574v15.435h5.145V12.36zM5.147 8.501a2.572 2.572 0 1 0 0-5.144 2.572 2.572 0 0 0 0 5.144z" style="stroke:var(--color1, #eaeaf1)"/>
+    </symbol>
+    <symbol id="twitter" viewBox="0 0 32 32">
+      <path fill="none" stroke="#eaeaf1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.286" d="M29.976 4.642a14.034 14.034 0 0 1-4.039 1.968 5.765 5.765 0 0 0-6.403-1.603 5.76 5.76 0 0 0-3.707 5.461v1.286A13.716 13.716 0 0 1 4.251 5.928s-5.145 11.576 6.431 16.721a14.976 14.976 0 0 1-9.004 2.573c11.576 6.431 25.725 0 25.725-14.792a5.803 5.803 0 0 0-.103-1.068 9.925 9.925 0 0 0 2.675-4.721v0z" style="stroke:var(--color1, #eaeaf1)"/>
+    </symbol>
+    <symbol id="facebook" viewBox="0 0 32 32">
+      <path fill="none" stroke="#eaeaf1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.286" d="M23.937 3.356h-3.859a6.43 6.43 0 0 0-6.431 6.432v3.859H9.788v5.145h3.859v10.29h5.145v-10.29h3.859l1.286-5.145h-5.145V9.788a1.29 1.29 0 0 1 1.286-1.287h3.859V3.356z" style="stroke:var(--color1, #eaeaf1)"/>
+    </symbol>
+    <symbol id="instagram" viewBox="0 0 34 32">
+      <path fill="none" stroke="#eaeaf1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.286" d="M23.044 3.356H10.182a6.43 6.43 0 0 0-6.431 6.431v12.862a6.43 6.43 0 0 0 6.431 6.431h12.862a6.43 6.43 0 0 0 6.431-6.431V9.787a6.43 6.43 0 0 0-6.431-6.431z" style="stroke:var(--color1, #eaeaf1)"/>
+      <path fill="none" stroke="#eaeaf1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.286" d="M21.758 15.41a5.147 5.147 0 0 1-10.17 1.571 5.142 5.142 0 0 1 2.71-5.385 5.146 5.146 0 0 1 7.458 3.811zM23.687 9.146h.013" style="stroke:var(--color1, #eaeaf1)"/>
+    </symbol>
+    <symbol id="youtube" viewBox="0 0 32 32">
+      <path fill="none" stroke="#eaeaf1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.286" d="M29.04 9.041a3.576 3.576 0 0 0-2.495-2.572c-2.212-.54-11.062-.54-11.062-.54s-8.849 0-11.062.592a3.581 3.581 0 0 0-2.495 2.572 37.315 37.315 0 0 0-.592 6.804 37.35 37.35 0 0 0 .592 6.856 3.566 3.566 0 0 0 2.496 2.469c2.212.592 11.062.592 11.062.592s8.849 0 11.062-.592a3.566 3.566 0 0 0 2.495-2.573c.402-2.228.6-4.489.592-6.753a37.342 37.342 0 0 0-.592-6.856v0z" style="stroke:var(--color1, #eaeaf1)"/>
+      <path fill="none" stroke="#eaeaf1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.286" d="m12.589 20.105 7.396-4.206-7.396-4.206v8.412z" style="stroke:var(--color1, #eaeaf1)"/>
+    </symbol>
+  </defs>
+</svg>

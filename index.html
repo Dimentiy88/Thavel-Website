@@ -349,12 +349,141 @@
             day weekend getaway cabin retreats.</p>
           <button type="button" class="footer-top-btn">Find the perfect getaway</button>
         </div>
+        <div class="footer-bottom"></div>
       </div>
-      <div class="footer-bottom"></div>
+      <div class="footer-bottom">
+        <div class="container footer-bottom-wrapper">
+          <ul class="list footer-list">
+            <p class="footer-main-text">About us</p>
+            <li class="footer-subtext">Our story</li>
+            <li class="footer-subtext">Why us</li>
+            <li class="footer-subtext">How it works</li>
+            <li class="footer-subtext">FAQ</li>
+          </ul>
+          <ul class="list footer-list">
+            <p class="footer-main-text">Our cabins</p>
+            <li class="footer-subtext">North of London</li>
+            <li class="footer-subtext">Golden Hideaway</li>
+            <li class="footer-subtext">Oak Treehouse</li>
+            <li class="footer-subtext">Acacia Retreat</li>
+            <li class="footer-subtext">Blue Lagoon</li>
+            <li class="footer-subtext">South of London</li>
+            <li class="footer-subtext">Lavender Retreat</li>
+            <li class="footer-subtext">Butterfly Treehouse</li>
+            <li class="footer-subtext">Mahogany Hideaway</li>
+          </ul>
+          <ul class="list footer-list">
+            <p class="footer-main-text">Get inspired</p>
+            <li class="footer-subtext">Hiking trails</li>
+            <li class="footer-subtext">Explore nature</li>
+            <li class="footer-subtext">Swimming</li>
+            <li class="footer-subtext">Fishing</li>
+            <li class="footer-subtext">Boating</li>
+            <li class="footer-subtext">Cycling</li>
+            <li class="footer-subtext">Rest, relax and re-set</li>
+            <li class="footer-subtext">Spa treatments</li>
+            <li class="footer-subtext">Hot tubs</li>
+            <li class="footer-subtext">Nature Trails</li>
+          </ul>
+          <ul class="list footer-list">
+            <li class="footer-subtext">Great food and drink</li>
+            <li class="footer-subtext">Pubs</li>
+            <li class="footer-subtext">Resturants</li>
+            <li class="footer-subtext">Food markets</li>
+            <li class="footer-subtext">Picnics</li>
+            <li class="footer-subtext">For you and yours</li>
+            <li class="footer-subtext">Solo or a couple</li>
+            <li class="footer-subtext">Pet friendly</li>
+            <li class="footer-subtext">Accessible cabins</li>
+          </ul>
+          <ul class="list footer-list">
+            <p class="footer-main-text">Support</p>
+            <li class="footer-subtext">Help</li>
+            <li class="footer-subtext">Contact us</li>
+            <li class="footer-subtext">Privacy Policy</li>
+            <li class="footer-subtext">Terms of Service</li>
+            <li class="footer-subtext">Complaints Policy</li>
+          </ul>
+        </div>
+        <div class="container">
+          <p class="footer-main-text">Sign up to our Newsletter</p>
+          <div class="sing-up-wrapper">
+            <div class="sing-up">
+              <p class="footer-subtext subtext-footer">For a weekly curated collection of 3 things you can watch, read
+                or
+                <br> listen to
+                switch off from the
+                busy
+                everyday.
+              </p>
+              <form action="" class="form js-speaker-form">
+                <input class="footer-input" type="email" name="email" placeholder="james@thegaintpeach.com">
+                <button class="footer-btn" type="submit">Join the mailing list</button>
+              </form>
+            </div>
+          </div>
+          <div class="footer-text-wrapper">
+            <h2 class="footer-title">UnwindCabins</h2>
+            <p class="unwindcabins"><span>&#169</span>2023 UnwindCabins</p>
+            <ul class="social-media list">
+              <li class="social-media-item">
+                <a class="social-link" target="_blank" rel="noopener noreferrer" href="https://linkedin.com">
+                  <svg class="linkedin" width="20" height="20">
+                    <use href="./images/icon/footer-icons/footer-split.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media-item">
+                <a class="social-link" target="_blank" rel="noopener noreferrer" href="https://twitter.com">
+                  <svg class="linkedin" width="20" height="20">
+                    <use href="./images/icon/footer-icons/footer-split.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media-item">
+                <a class="social-link" target="_blank" rel="noopener noreferrer" href="https://facebook.com">
+                  <svg class="linkedin" width="20" height="20">
+                    <use href="./images/icon/footer-icons/footer-split.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media-item">
+                <a class="social-link" target="_blank" rel="noopener noreferrer" href="https://instagram.com">
+                  <svg class="linkedin" width="20" height="20">
+                    <use href="./images/icon/footer-icons/footer-split.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media-item">
+                <a class="social-link" target="_blank" rel="noopener noreferrer" href="https://youtube.com">
+                  <svg class="linkedin" width="20" height="20">
+                    <use href="./images/icon/footer-icons/footer-split.svg#youtube"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="./js/animation.js"></script>
+  <script>
+    (() => {
+      document
+        .querySelector('.js-speaker-form')
+        .addEventListener('submit', e => {
+          e.preventDefault();
+
+          new FormData(e.currentTarget).forEach((value, name) =>
+            console.log(`${name}: ${value}`),
+          );
+
+          e.currentTarget.reset();
+        });
+    })();
+  </script>
 </body>
 
 </html>
